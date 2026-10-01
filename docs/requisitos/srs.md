@@ -268,6 +268,11 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| Cuidador | Persona encargada de la supervisión directa, gestión de dietas y asistencia continua a un usuario dependiente dentro de la plataforma. | Acta de captura de requisitos generales | 
+| Usuario Dependiente | Persona que requiere apoyo en su vida diaria y para la cual se planifican menús o recetas adaptadas a sus necesidades nutricionales específicas. | Documento de Visión y Alcance | 
+| Receta | Preparación culinaria registrada en el sistema que especifica ingredientes, cantidades, modo de elaboración e información nutricional relevante. | Acta de captura de requisitos generales | 
+| Asociación de Cuidadores | Organización o entidad colaboradora registrada en la plataforma que agrupa a profesionales del cuidado y supervisa cuentas o contenidos. | Documento de Visión y Alcance | 
+| Plan Nutricional | Planificación de menús y dietas periódicas asignadas a un usuario dependiente en función de sus restricciones o recomendaciones de salud. | Acta de captura de requisitos generales |
 
 ## 10. Modelos de análisis
 
