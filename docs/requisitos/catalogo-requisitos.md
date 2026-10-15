@@ -115,7 +115,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-055 | El sistema debe permitir al nutricionista publicar directamente como validadas las recetas que cree. | UR-06 | — | Vigente |
 | FR-056 | El sistema debe proporcionar un formulario de publicación de recetas con campos obligatorios para: título de la receta, ingredientes, instrucciones de preparación, tiempo de cocción y número de porciones. | UR-06 | — | Vigente |
 | FR-057 | El sistema debe permitir al usuario subir imágenes en formato JPEG o PNG como parte de la receta. | UR-06 | — | Vigente |
-| FR-058 | El sistema debe permitir al usuario subir videos en formato MP4, con un tamaño máximo de 100 MB, como parte de la receta. | UR-06 | — | Vigente |
+| FR-058 | El sistema debe permitir al usuario subir videos en formato MP4, con un tamaño máximo de 100 MB, como parte de la receta. | UR-06 | — | Vigente | 
 | FR-059 | El sistema debe permitir al usuario clasificar las recetas por categorías (tipo de comida, restricciones dietéticas, nivel de dificultad, tiempo de preparación). | UR-06 | — | Vigente |
 | FR-060 | El sistema debe permitir al usuario asignar etiquetas (palabras clave) a las recetas para facilitar la búsqueda y filtrado. | UR-06 | — | Vigente |
 | FR-061 | El sistema debe permitir al usuario editar sus recetas publicadas en cualquier momento y mantener un registro de las ediciones realizadas. | UR-06 | — | Vigente |
