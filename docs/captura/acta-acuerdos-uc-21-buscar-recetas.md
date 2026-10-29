@@ -24,7 +24,7 @@ Los demás filtros, las recomendaciones, el historial, los favoritos y las accio
 ## 2. Acuerdos
 
 ### Criterios de búsqueda
-
+ 
 - La persona selecciona los ingredientes que desea encontrar. Una receta debe contener todos los ingredientes seleccionados para aparecer como resultado.
 - La persona también puede seleccionar ingredientes que desea excluir. Ninguna receta de los resultados puede contener alguno de ellos.
 - La selección se hace a partir de los nombres de ingredientes disponibles en el sistema. La persona puede añadir o retirar selecciones antes de buscar.

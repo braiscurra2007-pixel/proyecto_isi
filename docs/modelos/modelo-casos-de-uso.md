@@ -257,7 +257,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** UC-21 — Buscar recetas.
+**Identificador y nombre del caso de uso:** UC-21 — Buscar recetas. 
 
 **Objetivo:** Permitir que el usuario localice recetas publicadas y validadas mediante una serie de filtros y acceda al detalle de una receta seleccionada.
 
