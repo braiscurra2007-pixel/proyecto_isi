@@ -2,11 +2,11 @@
 
 | Versión | Fecha | Estado |
 | --- | --- | --- |
-| 2.6 | 22/10/2026 | Revisado |
+| 2.7 | 22/10/2026 | Revisado |
 
 **Iteración de referencia:** E2. Este documento recoge el modelo acumulado después de incorporar la vista de salud y recetas.
 
-**Plantilla base:** [Plantilla del modelo de casos de uso](plantilla-modelo-casos-de-uso.md). La plantilla se conserva sin cumplimentar. Los resultados del proyecto se incorporan a este documento.
+**Estructura de referencia:** [Guía de modelos](README.md#esquema-de-las-descripciones). Los resultados del proyecto se incorporan a este documento.
 
 Los diagramas representan distintas vistas del mismo modelo. Los nombres de los actores y los identificadores de los casos de uso se mantienen entre iteraciones.
 
@@ -217,7 +217,7 @@ UC-21 Buscar recetas incluye la búsqueda de recetas, la presentación de result
 
 Las actas constituyen la referencia para especificar esos comportamientos. UC-05 no modifica datos de salud. La descripción seleccionada de UC-21 es parcial y no aplica automáticamente las alergias del perfil. Las demás funciones conservan sus requisitos y siguen pendientes de descripción.
 
-Las descripciones de UC-05 y UC-21 se limitan al comportamiento definido en sus actas aprobadas y siguen la estructura de la [plantilla base](plantilla-modelo-casos-de-uso.md#6-descripciones-de-los-casos-de-uso).
+Las descripciones de UC-05 y UC-21 se limitan al comportamiento definido en sus actas aprobadas y siguen la estructura de la [guía de modelos](README.md#esquema-de-las-descripciones).
 
 Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y UC-21.
 
@@ -288,11 +288,13 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 - **5a.** El sistema no puede completar la búsqueda: informa del problema, conserva los criterios de la última búsqueda y permite reintentar o terminar la consulta. No presenta el fallo como una búsqueda sin resultados.
 - **8a.** El sistema no puede cargar el detalle: informa del problema, conserva los criterios de la última búsqueda y permite reintentar o terminar la consulta.
 
-**Postcondiciones:** Si la búsqueda tiene éxito, se muestran los resultados que cumplen todos los criterios y, si el usuario selecciona uno, su detalle. Si el usuario vuelve a los resultados, se conservan los criterios y el orden de la última búsqueda. Si no hay resultados, se conservan los criterios y se muestran las ayudas disponibles así como que ocurrió para que no diera resultado. Si se produce un fallo, no se presenta como ausencia de resultados y se conservan los criterios para reintentar. La consulta no modifica recetas ni aplica automáticamente las alergias o intolerancias del perfil.
+**Postcondiciones:** Si la búsqueda tiene éxito, se muestran los resultados que cumplen todos los criterios y, si el usuario selecciona uno, su detalle. Si el usuario vuelve a los resultados, se conservan los criterios y el orden de la última búsqueda. Si no hay resultados, se conservan los criterios y se muestran las ayudas disponibles, así como la causa por la que la búsqueda no produjo resultados. Si se produce un fallo, no se presenta como ausencia de resultados y se conservan los criterios para reintentar. La consulta no modifica recetas ni aplica automáticamente las alergias o intolerancias del perfil.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
 **Preguntas abiertas:** Quedan fuera de esta descripción los demás filtros, las recomendaciones, el historial, los favoritos y las acciones sobre la receta. También queda pendiente precisar cómo se relacionan las alergias e intolerancias del perfil con los ingredientes; no se aplica ese filtro automáticamente en este alcance.
+
+![Diagrama de actividad de UC-21 · Buscar recetas](imagenes/actividad-buscar-recetas-uc21.png)
 
 ## 7 Continuidad entre iteraciones
 
